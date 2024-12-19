@@ -211,9 +211,3 @@ It was developed by **Miras Tulebayev**.
 
 - **Email**: [tmiras@gmail.com](mailto:tmiras0706@gmail.com)  
 - **GitHub**: [github.com/aftosmiros](https://github.com/aftosmiros)
-
----
-
-## **License**
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
