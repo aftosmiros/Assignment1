@@ -1,6 +1,13 @@
 # Multi-System Application
 
-This Go project is the **first assignment** for the **Advanced Programming 1** course at **Astana IT University**. It has been developed by **Tulebayev Miras**. The project contains multiple reusable packages (`pkg`) for different systems, including a **Library Management System**, a **Bank Account System**, a **Shapes Management System**, and an **Employee Management System**. Each package is modular and implements its functionality with clear interfaces and methods, adhering to Go's best practices.
+This Go project is the **first assignment** for the **Advanced Programming 1** course at **Astana IT University**, developed by **Tulebayev Miras**. The project contains multiple reusable packages (`pkg`) for different systems, including:
+
+- **Library Management System**
+- **Bank Account System**
+- **Shapes Management System**
+- **Employee Management System**
+
+Each package is modular and implements its functionality with clear interfaces and methods, adhering to Go's best practices. This repository also demonstrates CLI-based user interaction for managing a library, bank account, shapes, and employees.
 
 ---
 
@@ -129,35 +136,52 @@ c.ListEmployees()
 
 ---
 
-## **How to Run the Project**
+## **Installation Instructions**
 
-### Prerequisites
-- **Go 1.20+** installed on your system.
+### **Prerequisites**
+1. **Install Go**: Ensure you have Go 1.20+ installed on your system.  
+   - Download from [golang.org](https://golang.org/dl/).
+2. **Git**: Ensure Git is installed to clone the repository.
 
-### Steps
-1. Clone the repository:
+### **Steps to Install and Run the Project**
+
+1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/YourUsername/multi_system_app.git
-   cd multi_system_app
+   git clone https://github.com/astanait-university/advanced-programming-1-assignment-1.git
+   cd advanced-programming-1-assignment-1
    ```
 
-2. Run any CLI example:
-   - **Library Management**:
+2. **Initialize Go Modules**:
+   - If you haven't done so already:
      ```bash
-     go run cmd/library/main.go
+     go mod tidy
      ```
-   - **Bank Account Management**:
-     ```bash
-     go run cmd/bank/main.go
-     ```
-   - **Shapes Management**:
-     ```bash
-     go run cmd/shapes/main.go
-     ```
-   - **Employee Management**:
-     ```bash
-     go run cmd/employee/main.go
-     ```
+
+3. **Run CLI Applications**:
+   Each system has its own CLI application located in the `cmd` directory. You can run them as follows:
+   
+   #### Library Management System:
+   ```bash
+   go run cmd/library/main.go
+   ```
+
+   #### Bank Account Management:
+   ```bash
+   go run cmd/bank/main.go
+   ```
+
+   #### Shapes Management:
+   ```bash
+   go run cmd/shapes/main.go
+   ```
+
+   #### Employee Management:
+   ```bash
+   go run cmd/employee/main.go
+   ```
+
+4. **Expected Outputs**:
+   - For each CLI application, follow the prompts to interact with the system. For example, add a book to the library, process a bank transaction, or calculate shapes' areas and perimeters.
 
 ---
 
@@ -183,9 +207,9 @@ c.ListEmployees()
 ## **About the Developer**
 
 This project is the **first assignment** for the **Advanced Programming 1** course at **Astana IT University**.  
-It was developed by **Tulebayev Miras**.  
+It was developed by **Miras Tulebayev**.  
 
-- **Email**: [tmiras0706@gmail.com](mailto:tmiras0706@gmail.com)  
+- **Email**: [tmiras@gmail.com](mailto:tmiras0706@gmail.com)  
 - **GitHub**: [github.com/aftosmiros](https://github.com/aftosmiros)
 
 ---
@@ -193,19 +217,3 @@ It was developed by **Tulebayev Miras**.
 ## **License**
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-```
-
----
-
-### **Changes Added**
-1. **Assignment Context**:
-   - Mentioned that this project is part of the **Advanced Programming 1** course at **Astana IT University**.
-   - Included the name of the developer: **Tulebayev Miras**.
-
-2. **Improved Structure**:
-   - Highlighted how each package works with examples.
-
-3. **Professional Tone**:
-   - Improved readability and professionalism for academic submission.
-
-Let me know if you need additional tweaks! 🚀
