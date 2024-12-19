@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/astanait-university/advanced-programming-1-assignment-1/pkg/bank"
+	"github.com/aftosmiros/Assignment1/pkg/bank"
 )
 
 func main() {

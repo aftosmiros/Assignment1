@@ -3,7 +3,7 @@
 package main
 
 import (
-	"github.com/astanait-university/advanced-programming-1-assignment-1/pkg/shapes"
+	"github.com/aftosmiros/Assignment1/pkg/shapes"
 )
 
 func main() {

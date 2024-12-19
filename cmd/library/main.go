@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/astanait-university/advanced-programming-1-assignment-1/pkg/library"
+	"github.com/aftosmiros/Assignment1/pkg/library"
 )
 
 func main() {

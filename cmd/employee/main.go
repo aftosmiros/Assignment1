@@ -3,7 +3,7 @@
 package main
 
 import (
-	"github.com/astanait-university/advanced-programming-1-assignment-1/pkg/employee"
+	"github.com/aftosmiros/Assignment1/pkg/employee"
 )
 
 func main() {
